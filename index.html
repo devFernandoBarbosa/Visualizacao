@@ -21,19 +21,19 @@
     </header>
     <main>
         <section id="hero">
-            <div>
+            <div class="hero-texto">
                 <h2>Conectando o futuro a programação</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quis, corrupti cum accusantium maxime ea quasi, suscipit officia ratione dignissimos beatae sunt facere impedit, dolores exercitationem praesentium provident harum quisquam?</p>
-                <a href="#inscricao" class="btn-sec">Inscreva-se</a>
+                <a href="#inscricao" class="btn-hero">Inscreva-se</a>
             </div>
         </section>
         <section id="sobre">
             <div class="sobre-conteudo">
-                <div class="texto">
+                <div class="sobre-texto">
                     <h2>Sobre o DevStart</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea totam labore tenetur beatae quidem mollitia itaque, harum maiores et dolores nam officiis quis. Debitis ea doloremque animi amet alias eum.</p>
                 </div>
-                <img src="#" alt="Devs reunidos">
+                <img src="Devs reunidos.png " alt="Equipe de desenvolvedores no evento">
             </div>
         </section>
         <section id="programacao">
@@ -60,18 +60,33 @@
             <h2>Inscreva-se no DevStart</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In sed ad architecto ipsa dolores temporibus, labore impedit itaque cupiditate ex mollitia quibusdam, accusamus quos voluptates, illo consequatur dicta totam soluta.</p>
             <div class="formulario">
-                <form action="">
+                <p>Todos os campos são obrigatórios </p>
+                <form action="#">
                     <label for="nome">Nome:</label>
                     <input type="text" placeholder="Nome completo" id="nome" required>
                     <label for="email">Email:</label>
-                    <input type="email" placeholder="email@" id="email" required>
-                    <label for="checkbox">Confirmo meus dados:</label>
-                    <input type="checkbox" required id="checkbox">
+                    <input type="email" placeholder="seuemail@exemplo.com" id="email" required>
+                    <label for="checkbox">Autorizo o uso dos meus dados para inscrição:</label>
+                    <input type="checkbox" required id="checkbox" value="confirmado">
                     <button type="submit" id="btn-enviar">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="rodape-box">
+        <p>© 2025 DevStart</p>
+        <p>Feito por Fernando e Jessé</p>
+        <p>Todos os direitos reservados</p>
+        </div>
+        <hr>
+        <div>
+        <a href="#hero">Início</a>
+        <a href="#programacao">Programação</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#inscricao">Inscrição</a>
+        </div>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>
