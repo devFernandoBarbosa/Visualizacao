@@ -18,13 +18,6 @@ header{
     padding: 20px;
     color: white;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 0px;
-}
 .navegacao ul{
     list-style: none;
     display: flex;
@@ -82,7 +75,7 @@ footer{
     padding: 60px 20px;
     background-color: #f9f9f9;
 }
-#sobre h2{
+.sobre-conteudo h2{
     font-size: 38px;
     margin-bottom: 20px;
     text-align: center;
