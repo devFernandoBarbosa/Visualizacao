@@ -33,10 +33,10 @@ form.addEventListener("submit", function evento(e) {
   alert("Inscrição realizada com sucesso!");
   form.reset();
 });
-const observador = new IntersectionObserver(function(entries){
-    entries.forEach(function(entry){
-        if (entry.isIntersecting) {
-            entry.target.classList.add("visivel");
+const observador = new IntersectionObserver(function(entradas){
+    entradas.forEach(function(entrada){
+        if (entrada.isIntersecting) {
+            entrada.target.classList.add("visivel");
         }
     });
 });
