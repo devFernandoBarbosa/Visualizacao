@@ -49,7 +49,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #0066ff, #00d4ff);
+    background-image: linear-gradient(135deg, rgba(0 ,102, 255, 0.85), rgba(0, 212, 255, 0.85)), url(Devs\ reunidos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hero-texto{
     text-align: left;
